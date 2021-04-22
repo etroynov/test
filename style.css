@@ -55,3 +55,12 @@ body {
 .center {
     padding: 50px;
 }
+
+.error {
+    display: none;
+    margin-top: 15px;
+}
+
+.error-3 {
+    color: green;
+}
