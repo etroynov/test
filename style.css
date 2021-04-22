@@ -1,0 +1,57 @@
+html,
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+.header {
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
+    background: #e2362e;
+    text-shadow: 2px 2px 1px #670f0b;
+}
+
+.disclamer {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.form {
+    padding: 16px;
+    border: 1px solid #eeeeee;
+    border-radius: 8px;
+}
+
+.form__header {
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.offer__title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.offer__subtitle {
+    color: red;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+.center {
+    padding: 50px;
+}

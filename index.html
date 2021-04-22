@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Новогодняя лотерея</h1>
+            <h2>Вы выбраны победителем в нашем интернет магазине</h2>
+        </div>
+    </header>
+
+    <section class="disclamer">
+        <div class="container">
+            Ранее вы оформляли заказ в нашем интернет магазине и выбрали доставку Почтой РФ! Нашему магазину 2 года и мы <br>
+            устроили <span class="red">розыгрыш</span> среди наших покупателей и отправили каждому клиенту с посылкой <br>
+            лотерейный билет на <span class="red">набор техники</span>!
+        </div>
+    </section>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5">
+                    <div class="offer">
+                        <div class="offer__title">
+                            Введи трек-номер <br> и код посылки
+                            <br> Узнай, что ты выиграл <br> из набора техники
+                        </div>
+                        <div class="offer__subtitle">
+                            Код находится внутри вашего заказа, <br> посылка находится на вашей почте
+                        </div>
+                    </div>
+                    <form class="form">
+                        <header class="form__header">
+                            Заполни поля <br> и получи подарок
+                        </header>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="ТРЕК-НОМЕР *">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="КОД-ПОСЫЛКИ *">
+                        </div>
+                        
+                        <button type="submit" class="btn btn-block btn-primary caps">Получить подарок!</button>
+                    </form>
+                </div>
+                <div class="col-sm-7 center">
+                    <img src="./img.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
