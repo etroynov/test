@@ -23,8 +23,10 @@
 
     <section class="disclamer">
         <div class="container">
-            Ранее вы оформляли заказ в нашем интернет магазине и выбрали доставку Почтой РФ! Нашему магазину 2 года и мы <br>
-            устроили <span class="red">розыгрыш</span> среди наших покупателей и отправили каждому клиенту с посылкой <br>
+            Ранее вы оформляли заказ в нашем интернет магазине и выбрали доставку Почтой РФ! Нашему магазину 2 года и мы
+            <br>
+            устроили <span class="red">розыгрыш</span> среди наших покупателей и отправили каждому клиенту с посылкой
+            <br>
             лотерейный билет на <span class="red">набор техники</span>!
         </div>
     </section>
@@ -47,15 +49,34 @@
                             Заполни поля <br> и получи подарок
                         </header>
                         <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="ТРЕК-НОМЕР *">
+                            <input type="text" class="form-control" id="trackCode" aria-describedby="emailHelp"
+                                placeholder="ТРЕК-НОМЕР *">
                         </div>
                         <div class="form-group">
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="КОД-ПОСЫЛКИ *">
+                            <input type="text" class="form-control" id="shippingCode" placeholder="КОД-ПОСЫЛКИ *">
                         </div>
-                        
-                        <button type="submit" class="btn btn-block btn-primary caps">Получить подарок!</button>
+
+                        <button type="submit" id="button" class="btn btn-block btn-primary caps">Получить
+                            подарок!</button>
+                        <div class="offer__subtitle error error-1">
+                            неверный код посылки
+                        </div>
+
+                        <div class="offer__subtitle error error-2">
+                            введите код посылки и трек
+                        </div>
+
+
+                        <div class="offer__subtitle error error-3">
+                            ваш трек участвует в акции, введите код посылки
+                        </div>
+
+                        <div class="offer__subtitle error error-4">
+                            неверный трек-номер
+                        </div>
+
                     </form>
+
                 </div>
                 <div class="col-sm-7 center">
                     <img src="./img.jpeg" alt="">
@@ -63,6 +84,9 @@
             </div>
         </div>
     </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./main.js"></script>
 </body>
 
 </html>
