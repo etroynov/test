@@ -177,13 +177,13 @@
                     $('.error-2').hide();
                 }
 
-                if (trackCode.length > 1 && trackCode.match(/^MX\d{9}ZK$/) && shippingCode.length === 0) {
+                if (trackCode.length > 1 && trackCode.match(/^[A-Za-zА-Яа-яЁё]{2}\d{9}[A-Za-zА-Яа-яЁё]{2}$/) && shippingCode.length === 0) {
                     $('.error-3').show();
                 } else {
                     $('.error-3').hide();
                 }
 
-                if (trackCode.length > 1 && !trackCode.match(/^MX\d{9}ZK$/)) {
+                if (trackCode.length > 1 && !trackCode.match(/^[A-Za-zА-Яа-яЁё]{2}\d{9}[A-Za-zА-Яа-яЁё]{2}$/)) {
                     $('.error-4').show();
                 } else {
                     $('.error-4').hide();
